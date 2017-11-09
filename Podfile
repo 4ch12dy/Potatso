@@ -25,7 +25,7 @@ def socket
 end
 
 def model
-    pod 'RealmSwift'
+    pod 'RealmSwift', '3.0.1'
 end
 
 target "Potatso" do
@@ -47,6 +47,7 @@ target "Potatso" do
     pod 'Helpshift', '5.6.1'
     pod 'PSOperations', '~> 3.0.0'
     pod 'LogglyLogger-CocoaLumberjack', '~> 3.0'
+    pod 'YAML-Framework', '0.0.2'
     tunnel
     library
     fabric
